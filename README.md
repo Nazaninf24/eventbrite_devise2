@@ -1,24 +1,17 @@
-# README
+# Eventbrite-devise
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Installation et lancement de l'application :
 
-Things you may want to cover:
+- Sur le Terminal :
+1. ```$ bundle install```
+2. ```$ rails db:drop```
+3. ```$ rails db:create```
+4. ```$ rails db:migrate```
+5. ```$ rails db:seed```
+6. ```$ rails server```
 
-* Ruby version
+- Sur Navigator web :
+http://localhost:3000
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Lien de l'application sur Heroku :
+https://eventbrite-devise2.herokuapp.com/events/show
